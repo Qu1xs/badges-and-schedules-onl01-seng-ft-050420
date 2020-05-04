@@ -13,7 +13,6 @@ end
 
 def assign_rooms(attendees)
   ary = []
-  rooms = [1, 2, 3, 4, 5, 6, 7]
   attendees.each_with_index {|name, i| ary.push("Hello, #{name}! You'll be assigned to room #{i+1}!")}
   return ary
 end
