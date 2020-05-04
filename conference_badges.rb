@@ -6,7 +6,7 @@ end
 def batch_badge_creator(attendees)
   ary = []
   attendees.each { |name| ary.push("Hello, my name is #{name}.") }
-  return new_ary
+  return ary
 end
 
 def assign_rooms(attendees)
