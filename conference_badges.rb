@@ -4,16 +4,17 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  new_ary = []
-  attendees.each { |name| new_ary.push("Hello, my name is #{name}.") }
+  ary = []
+  attendees.each { |name| ary.push("Hello, my name is #{name}.") }
   return new_ary
 end
 
 def assign_rooms(attendees)
+  ary = []
   attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   rooms = [1, 2, 3, 4, 5, 6, 7]
   attendees.collect {|name| name = "Hello, #{name}!"}
-  #attendees.collect { |name| new_ary.push("Hello, #{name}! You'll be assigned to room #{rooms[name.index]}!") }
+  #attendees.collect { |name| ary.push("Hello, #{name}! You'll be assigned to room #{rooms[name.index]}!") }
   puts attendees
   return attendees
 end
