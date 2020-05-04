@@ -15,3 +15,7 @@ def assign_rooms(attendees)
   attendees.each { |assigns| new_ary.push("Hello, #{name}! You'll be assigned to room #{rooms[assigns.index]}!") }
   return new_ary
 end
+
+def printer
+  
+end
