@@ -9,9 +9,9 @@ def batch_badge_creator(attendees)
   return new_ary
 end
 
-def assign_rooms(name)
+def assign_rooms(attendees)
   new_ary =[]
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  name.collect { |assigns| new_ary.push("Hello, #{name}! You'll be assigned to room #{rooms[assigns.index]}!") }
+  attendees.collect { |assigns| new_ary.push("Hello, #{name}! You'll be assigned to room #{rooms[assigns.index]}!") }
   return new_ary
 end
