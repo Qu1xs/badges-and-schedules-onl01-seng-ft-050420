@@ -15,9 +15,8 @@ def assign_rooms
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   ary = []
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  ary = attendees.collect {|name| name = "Hello, #{name}!"}
+  puts attendees.collect {|name| name = "Hello, #{name}!"}
   #attendees.collect { |name| ary.push("Hello, #{name}! You'll be assigned to room #{rooms[name.index]}!") }
-  puts ary
   return ary
 end
 
