@@ -11,22 +11,14 @@ def batch_badge_creator(attendees)
   return ary
 end
 
-def assign_rooms
-  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def assign_rooms(attendees)
   ary = []
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  puts attendees.collect {|name| name = "Hello, #{name}!"}
-  #attendees.collect { |name| ary.push("Hello, #{name}! You'll be assigned to room #{rooms[name.index]}!") }
-  #return ary
+  ary = attendees.each_with_index {|name, i| name = "Hello, #{name}! You'll be assigned to room #{rooms[i]}!"}
+  return ary
 end
-
 
 def printer
   batch_badge_creator.each { |badge| puts badge}
   assign_rooms.each { |assign| puts assign}
 end
-
-
-a = [1, 2, 3, 4] 
-puts a.collect {|x| x + 1 }
-puts a
