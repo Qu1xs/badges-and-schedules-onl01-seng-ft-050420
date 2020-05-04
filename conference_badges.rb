@@ -17,5 +17,6 @@ def assign_rooms(name, room)
 end
 
 def printer
-  assign_rooms.each { |room| puts "#{room}!" }
+  batch_badge_creator.each { |badge| puts "#{badge}"
+  assign_rooms.each { |room| puts "#{room}" }
 end
