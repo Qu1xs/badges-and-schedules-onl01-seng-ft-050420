@@ -12,7 +12,7 @@ end
 def assign_rooms(attendees)
   new_ary =[]
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  attendees.each { |assigns| new_ary.push("Hello, #{attendees}! You'll be assigned to room #{rooms[assigns.index]}!") }
+  attendees.each { |assigns| new_ary.push("Hello, #{assigns}! You'll be assigned to room #{rooms[assigns.index]}!") }
   return new_ary
 end
 
