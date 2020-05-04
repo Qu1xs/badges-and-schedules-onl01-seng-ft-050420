@@ -30,5 +30,5 @@ end
 
 
 a = [1, 2, 3, 4] 
-a.collect {|x| x + 1 }
+puts a.collect {|x| x + 1 }
 puts a
