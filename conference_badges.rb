@@ -12,7 +12,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms
-  #attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   ary = []
   rooms = [1, 2, 3, 4, 5, 6, 7]
   puts attendees.collect {|name| name = "Hello, #{name}!"}
