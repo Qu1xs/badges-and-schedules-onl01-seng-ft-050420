@@ -11,8 +11,9 @@ def batch_badge_creator(names)
   return new_ary
 end
 
-def assign_rooms
+def assign_rooms(name, room)
   
+  "Hello, _____! You'll be assigned to room _____!"
 end
 
 def printer
