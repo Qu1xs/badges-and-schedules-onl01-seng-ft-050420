@@ -14,12 +14,10 @@ end
 def assign_rooms(attendees)
   ary = []
   rooms = [1, 2, 3, 4, 5, 6, 7]
-  attendees.collect! {|name| name = "Hello, #{name}!"}
-  binding.pry
+  ary = attendees.collect {|name| name = "Hello, #{name}!"}
   #attendees.collect { |name| ary.push("Hello, #{name}! You'll be assigned to room #{rooms[name.index]}!") }
-  puts attendees
-  binding.pry
-  return attendees
+  puts ary
+  return ary
 end
 
 
