@@ -22,7 +22,6 @@ def assign_rooms(attendees)
   return attendees
 end
 
-assign_rooms(attendees= ["Edsger", "Ada")
 
 def printer
   batch_badge_creator.each { |badge| puts badge}
