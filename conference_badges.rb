@@ -29,7 +29,3 @@ end
 a = [1, 2, 3, 4] 
 a.collect {|x| x + 1 }
 puts a
-
-
-a = [1, 2, 3, 4] 
-puts "collect a : #{a.collect {|x| x + 1 }}\n\n"
