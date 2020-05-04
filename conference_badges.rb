@@ -12,8 +12,10 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(name, room)
-  
-  "Hello, _____! You'll be assigned to room _____!"
+  new_ary =[]
+  rooms = [1, 2, 3, 4, 5, 6, 7]
+  name.collect { |assigns| new_ary.push("Hello, #{name}! You'll be assigned to room #{rooms}!") }
+  return new_ary
 end
 
 def printer
