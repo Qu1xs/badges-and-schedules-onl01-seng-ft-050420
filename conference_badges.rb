@@ -5,7 +5,9 @@ end
 
 def batch_badge_creator(names)
   new_ary = []
-  names.each {|name| new_ary.push() = "Hello, my name is #{name}."}
+  names.each do |name| 
+    new_ary.push() = "Hello, my name is #{name}."
+  end
   return new_ary
 end
 
