@@ -4,8 +4,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.each {|name| puts "Hello, my name is #{name}."}
-  return names
+  new_ary = []
+  names.each {|name| new_ary.push()"Hello, my name is #{name}."}
+  return new_ary
 end
 
 def assign_rooms
