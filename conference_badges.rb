@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
   return ary
 end
 
-def assign_rooms(attendees)
+def assign_rooms()
   ary = []
   attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   rooms = [1, 2, 3, 4, 5, 6, 7]
